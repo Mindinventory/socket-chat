@@ -59,13 +59,13 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ife-wj-rQY">
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ife-wj-rQY">
                                         <rect key="frame" x="349" y="5" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="bTl-F3-dEM"/>
                                             <constraint firstAttribute="width" constant="50" id="cHs-b3-094"/>
                                         </constraints>
-                                        <state key="normal" title="Send"/>
+                                        <state key="normal" image="send"/>
                                         <connections>
                                             <action selector="btnSendCLK:" destination="5HH-1X-dvw" eventType="touchUpInside" id="WM2-jt-oe6"/>
                                         </connections>
@@ -138,4 +138,7 @@
             <point key="canvasLocation" x="486.95652173913049" y="1350"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="send" width="30" height="30"/>
+    </resources>
 </document>
