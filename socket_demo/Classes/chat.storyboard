@@ -20,7 +20,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="W2U-Hl-Ybl" firstAttribute="trailing" secondItem="VYG-1z-QeA" secondAttribute="trailing" id="A7D-Ke-Xed"/>
                             <constraint firstItem="VYG-1z-QeA" firstAttribute="leading" secondItem="W2U-Hl-Ybl" secondAttribute="leading" id="RWX-gZ-LqO"/>
@@ -125,7 +125,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Kc4-WW-gZJ" firstAttribute="centerY" secondItem="IHy-DC-AEi" secondAttribute="centerY" id="GlX-7A-nCM"/>
                             <constraint firstItem="Kc4-WW-gZJ" firstAttribute="centerX" secondItem="IHy-DC-AEi" secondAttribute="centerX" id="URu-7M-Qcx"/>

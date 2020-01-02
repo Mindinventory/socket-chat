@@ -1,5 +1,5 @@
 //
-//  SocketIOManager.swift
+//  SocketHelper.swift
 //  Socket_demo
 //
 //  Created by Krishna Soni on 06/12/19.
@@ -16,9 +16,9 @@ let kUserList = "userList"
 let kExitUser = "exitUser"
 
 
-final class SocketIOManager: NSObject {
+final class SocketHelper: NSObject {
     
-    static let shared = SocketIOManager()
+    static let shared = SocketHelper()
     
     private var manager: SocketManager?
     private var socket: SocketIOClient?
@@ -71,7 +71,7 @@ final class SocketIOManager: NSObject {
         socket.emit(kConnectUser, nickname)
         completion()
     }
-    
+        
     func leaveChatRoom(nickname: String, completion: () -> Void) {
         
         guard let socket = manager?.defaultSocket else{

@@ -14,7 +14,7 @@ final class ChatViewModel {
     
     func fetchParticipantList(_ name: String) {
         
-        SocketIOManager.shared.participantList {[weak self] (result: [User]?) in
+        SocketHelper.shared.participantList {[weak self] (result: [User]?) in
             
             guard let self = self,
                 let users = result else{

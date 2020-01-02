@@ -14,7 +14,7 @@ final class MessageViewModel {
     
     func getMessagesFromServer() {
         
-        SocketIOManager.shared.getMessage { [weak self] (message: Message?) in
+        SocketHelper.shared.getMessage { [weak self] (message: Message?) in
             
             guard let self = self,
             let msgInfo = message else {

@@ -68,7 +68,7 @@ extension ChatDetailViewController {
         }
         
         txtMessage.resignFirstResponder()
-        SocketIOManager.shared.sendMessage(message: message, withNickname: name)
+        SocketHelper.shared.sendMessage(message: message, withNickname: name)
         txtMessage.text = nil
     }
 }

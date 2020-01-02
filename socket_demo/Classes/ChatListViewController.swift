@@ -97,7 +97,7 @@ extension ChatListViewController {
             return
         }
         
-        SocketIOManager.shared.leaveChatRoom(nickname: name) { [weak self] in
+        SocketHelper.shared.leaveChatRoom(nickname: name) { [weak self] in
             guard let self = self else {
                 return
             }

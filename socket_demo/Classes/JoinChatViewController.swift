@@ -21,7 +21,7 @@ class JoinChatViewController: UIViewController {
     
     private func joinChatRoom() {
         
-        let alertController = UIAlertController(title: "SocketChat", message: "Please enter a nickname:", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Socket", message: "Please enter a name:", preferredStyle: .alert)
         
         alertController.addTextField(configurationHandler: nil)
         
@@ -43,7 +43,7 @@ class JoinChatViewController: UIViewController {
                     return
                 }
                 
-                SocketIOManager.shared.joinChatRoom(nickname: nickName) { [weak self] in
+                SocketHelper.shared.joinChatRoom(nickname: nickName) { [weak self] in
                     
                     guard let nickName = textfield.text,
                         let self = self else{
