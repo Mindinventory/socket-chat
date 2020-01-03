@@ -4,4 +4,4 @@ This project will let you know that how we can build a chat application by using
 
 For the full tutorial, Please check this https://medium.com/p/8f32b1401aa5/
 
-![picture](socket_demo/Media/chat.png)
+![picture](socket_demo/Media/join_chat.png) ![picture](socket_demo/Media/user_list.png) ![picture](socket_demo/Media/chat.png)
