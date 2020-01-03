@@ -15,3 +15,14 @@ This is the participant list screen.
 This is the message list screen where user can communicate to each other.
 
 ![picture](socket_demo/Media/chat.png)
+
+
+# By Apple 
+
+Xcode 11.1
+iOS 13
+
+# LICENSE!
+
+socket-chat is [MIT-licensed](/LICENSE).
+
