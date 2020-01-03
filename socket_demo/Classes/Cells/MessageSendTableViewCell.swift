@@ -26,6 +26,6 @@ class MessageSendTableViewCell: UITableViewCell {
     func configureCell(_ message: Message) {
         
         self.lblMessage.text = message.message ?? ""
-        self.lblDate.text = "by \(message.nickname?.uppercased() ?? "") @ \(message.date ?? "")"
+        self.lblDate.text = message.date ?? ""
     }
 }
