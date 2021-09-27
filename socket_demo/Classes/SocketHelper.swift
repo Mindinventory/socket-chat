@@ -34,7 +34,7 @@ final class SocketHelper: NSObject {
             return
         }
         
-        manager = SocketManager(socketURL: url, config: [.log(true), .compress])
+        manager = SocketManager(socketURL: url, config: [.log(true), .compress, .forceWebsockets(true)])
         
         
         guard let manager = manager else {
